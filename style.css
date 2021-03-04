@@ -53,7 +53,7 @@ body{
 	padding: 10px;
 	height: 50vh;
 	width: 320px;
-	margin: calc(50vh / 2) auto;
+	margin: calc(45vh / 2) auto;
 }
 
 #card_pattern{
@@ -132,7 +132,6 @@ a{
 	#card{
 		width: 90%;
 		height: 50vh;
-		margin: calc(50vh / 2) auto;
 	}
 
 	#background *{
