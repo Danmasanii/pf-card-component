@@ -128,4 +128,31 @@ a{
  .attribution { height: 5vh; font-size: 11px; text-align: center; color: #333; }
  .attribution a { color: white; }
 
- 
+ @media(max-width: 375px){
+	#card{
+		width: 90%;
+		margin: calc(50vh / 2) auto;
+	}
+
+	#background *{
+		width: 100%; 
+		height: auto;
+		position: fixed;
+	}
+
+	#circletop {
+		top: -50%;
+		left: -120%;
+		transform: rotate(10deg);
+	}
+	
+	#circlebottom {
+		bottom: 50%;
+		right: -40%;
+		transform: rotate(5deg);
+	}
+	
+	#circletop img, #circlebottom img{
+		width: 200%;
+	}
+} 
