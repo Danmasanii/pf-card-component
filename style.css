@@ -131,6 +131,7 @@ a{
  @media(max-width: 375px){
 	#card{
 		width: 90%;
+		height: 50vh;
 		margin: calc(50vh / 2) auto;
 	}
 
@@ -141,13 +142,13 @@ a{
 	}
 
 	#circletop {
-		top: -50%;
+		top: -60%;
 		left: -120%;
 		transform: rotate(10deg);
 	}
 	
 	#circlebottom {
-		bottom: 50%;
+		bottom: 40%;
 		right: -40%;
 		transform: rotate(5deg);
 	}
